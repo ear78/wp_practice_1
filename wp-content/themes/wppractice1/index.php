@@ -4,6 +4,7 @@
 <?php //get_header( 'alternate' ); ?>
 <?php get_header(  ); ?>
 
+    <!-- primary content posts and pages -->
     <div id="primary" class="content-area">
 
         <main id="main" class="site-main" role="main">
@@ -29,7 +30,7 @@
     </div>
 
     <!-- gets the sidebar dynamically -->
-    <?php get_sidebar(); ?>
+    <?php get_sidebar( 'sidebar-custom' ); ?>
 
 <!-- Same with the footer, you can use the string parameter to change the footer to an alternate footer -->
 <?php get_footer( ); ?>

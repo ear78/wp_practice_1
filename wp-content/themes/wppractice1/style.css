@@ -69,10 +69,48 @@ table {
     box-sizing: border-box;
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
 body {
+    font-family: 'Helvetica';
     background: cadetblue;
 }
 
 footer {
     background: lightgrey;
 }
+
+.site-content {
+    display: flex;
+}
+
+.content-area {
+    width: 70%;
+    background: grey;
+}
+
+.widget-area {
+    width: 30%;
+    background: aliceblue;
+}
+
+.site-footer {
+    background: lightgrey;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background: #313131;
+}
+
+.menu a {
+    padding: 10px 12px;
+}
+
+

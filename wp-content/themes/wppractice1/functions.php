@@ -17,6 +17,7 @@
     // Load in Css
 
     function wppractice1_enqueue_styles(){
+
         // using time() to trick wordpress to use most current version, turn off when in development
         // using get_stylesheet_directory_uri() to get directory then concat the path afterwards
 
