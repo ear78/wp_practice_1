@@ -23,14 +23,14 @@
                 </div>
 
             </article>
-
+            
         </main>
 
 
     </div>
 
-    <!-- gets the sidebar dynamically -->
-    <?php get_sidebar( 'sidebar-custom' ); ?>
+    <!-- gets the sidebar dynamically can take a dynamic custom name like footer/headers -->
+    <?php get_sidebar(  ); ?>
 
 <!-- Same with the footer, you can use the string parameter to change the footer to an alternate footer -->
 <?php get_footer( ); ?>
