@@ -49,6 +49,16 @@
         ]);
 
         register_sidebar([
+            'name' => esc_html__( 'Page Sidebar', 'wppractice1'),
+            'id' => 'page-sidebar',
+            'description' => esc_html__( 'Add widgets for page sidebar',  'wppractice1'),
+            'before_widget' => '<section class="widget">',
+            'after_widget' => '</section>',
+            'before_title' => '<h2 class="widget-title">',
+            'after_title' => '</h2>'
+        ]);
+
+        register_sidebar([
             'name' => esc_html__( 'Content Sidebar', 'wppractice1'),
             'id' => 'content-sidebar',
             'description' => esc_html__( 'Add widgets for content sidebar', 'wppractice1'),

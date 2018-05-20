@@ -12,7 +12,7 @@
         <?php if( have_posts() ) : while( have_posts() ) : the_post(); ?>
 
             <!-- utilize template parts to load in template -->
-            <?php get_template_part( '/template-parts/content'); ?>
+            <?php get_template_part( '/template-parts/content', 'page'); ?>
 
         <?php endwhile; else : ?>
 
@@ -21,7 +21,7 @@
 
         <?php endif; ?>
 
-        <?php dynamic_sidebar('content-sidebar'); ?>
+        <p>Template: page.php</p>
 
     </main>
 
@@ -29,7 +29,7 @@
 </div>
 
 <!-- gets the sidebar dynamically can take a dynamic custom name like footer/headers -->
-<?php get_sidebar(  ); ?>
+<?php get_sidebar( 'page' ); ?>
 
 <!-- Same with the footer, you can use the string parameter to change the footer to an alternate footer -->
 <?php get_footer( ); ?>
