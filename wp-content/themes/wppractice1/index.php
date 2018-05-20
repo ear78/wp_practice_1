@@ -9,20 +9,18 @@
 
         <main id="main" class="site-main" role="main">
 
-            <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-                <header class="entry-header">
+            <!-- LOOP TO DISPLAY DYNAMIC CONTENT ONTO THE PAGE, POSTS OR PAGES -->
+            <?php if( have_posts() ) : while( have_posts() ) : the_post(); ?>
 
-                    <h1>Index.php</h1>
+                <!-- utilize template parts to load in template -->
+                <?php get_template_part( '/template-parts/content'); ?>
 
-                </header>
+            <?php endwhile; else : ?>
 
-                <div class="entry-content">
+                <!-- If no content found 404 error page -->
+                <?php get_template_part( '/template-parts/content', '404'); ?>
 
-                    <p>Lorem.</p>
-
-                </div>
-
-            </article>
+            <?php endif; ?>
 
             <?php dynamic_sidebar('content-sidebar'); ?>
 
