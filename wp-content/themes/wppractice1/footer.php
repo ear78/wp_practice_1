@@ -5,6 +5,10 @@
         </div><!-- #content -->
 
         <footer id="colophon" class="site-footer">
+
+            <!-- Add footer widgets -->
+            <?php dynamic_sidebar( 'footer-sidebar'); ?>
+
             This is the footer section
             <a href="<?php echo esc_url('https://wordpress.org','wppractice1'); ?>">
                 <?php printf( esc_html__( 'Proudly powered by %s', 'wppractice1'), 'Wordpress'); ?>)

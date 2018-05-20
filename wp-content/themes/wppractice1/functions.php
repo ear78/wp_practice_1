@@ -58,6 +58,16 @@
             'after_title' => '</h2>'
         ]);
 
+        register_sidebar([
+            'name' => esc_html__( 'Footer Sidebar', 'wppractice1'),
+            'id' => 'footer-sidebar',
+            'description' => esc_html__( 'Add widgets for footer sidebar', 'wppractice1'),
+            'before_widget' => '<section class="footer-widget">',
+            'after_widget' => '</section>',
+            'before_title' => '<h2 class="footer-widget-title">',
+            'after_title' => '</h2>'
+        ]);
+
     }
     add_action( 'widgets_init', 'wppractice1_widgets_init')
 

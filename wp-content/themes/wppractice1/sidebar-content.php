@@ -7,6 +7,6 @@ if( !is_active_sidebar('content-sidebar') ){
 
 <div id="id" class="widget-area" role="complementary">
 
-    <?php dynamic_sidebar( 'content-sidebar' ); ?>
+    This is the content widget area.
 
 </div>

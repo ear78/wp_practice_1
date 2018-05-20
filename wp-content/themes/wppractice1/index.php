@@ -23,7 +23,9 @@
                 </div>
 
             </article>
-            
+
+            <?php dynamic_sidebar('content-sidebar'); ?>
+
         </main>
 
 

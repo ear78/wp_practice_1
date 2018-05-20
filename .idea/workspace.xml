@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dae33d3c-d620-4ac6-9879-2940cd01a0e3" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/hello.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/wppractice1/content-sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/wppractice1/sidebar-content.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/wppractice1/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/wppractice1/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/wppractice1/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/wppractice1/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/wppractice1/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/wppractice1/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/wppractice1/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/wppractice1/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/wppractice1/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/wppractice1/sidebar.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,20 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice1/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
               <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice1/functions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="47" column="36" lean-forward="true" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -43,20 +36,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content-sidebar.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice1/content-sidebar.php">
+      <file leaf-file-name="sidebar-content.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice1/sidebar-content.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="5" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice1/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
@@ -73,14 +66,15 @@
         <option value="$PROJECT_DIR$/wp-content/themes/wppractice1/header-alternate.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wppractice1/footer-alternate.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wppractice1/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wppractice1/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/wppractice1/sidebar-custom.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wppractice1/sidebar.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wppractice1/header.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wppractice1/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wppractice1/content-sidebar.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wppractice1/sidebar-content.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wppractice1/index.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wppractice1/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wppractice1/footer.php" />
       </list>
     </option>
   </component>
@@ -168,12 +162,12 @@
       <updated>1526488182288</updated>
       <workItem from="1526488183477" duration="2301000" />
       <workItem from="1526575062990" duration="8279000" />
-      <workItem from="1526676966953" duration="9608000" />
+      <workItem from="1526676966953" duration="11229000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20188000" />
+    <option name="totallyTimeSpent" value="21809000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="571" y="23" width="869" height="815" extended-state="0" />
@@ -286,24 +280,10 @@
     <entry file="file://$PROJECT_DIR$/wp-content/advanced-cache.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice1/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice1/sidebar-custom.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="31" lean-forward="true" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice1/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -314,13 +294,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice1/content-sidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice1/sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -328,17 +301,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice1/functions.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice1/sidebar-content.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="47" column="36" lean-forward="true" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="5" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice1/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice1/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice1/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice1/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
         </state>
       </provider>
     </entry>
