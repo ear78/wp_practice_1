@@ -25,14 +25,12 @@
                     <?php bloginfo( 'description' ); ?>
                 </p>
             </div>
-            
-            <nav id="site-navigation" class="main-navigation" role="navigation">
-                <?php
 
-                    $args = ['theme_location' => 'navigation'];
+            <!-- Main Navigation Menu -->
+            <?php get_template_part( '/template-parts/navigation/navigation', 'main'); ?>
 
-                    wp_nav_menu( $args ); ?>
-            </nav>
+            <!-- Mobile Navigation Menu -->
+            <?php get_template_part( '/template-parts/navigation/navigation', 'mobile'); ?>
 
         </header>
 

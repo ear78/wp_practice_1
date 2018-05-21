@@ -48,7 +48,7 @@
     function wppractice1_enqueue_scripts(){
         wp_enqueue_script( 'theme-js', get_stylesheet_directory_uri() . '/assets/js/theme.js', [], time(), true);
 
-        wp_enqueue_script( 'jquery-theme-js', get_stylesheet_directory_uri() . '/assets/js/jquery.theme.js', [ 'jquery' ], time(), );
+        wp_enqueue_script( 'jquery-theme-js', get_stylesheet_directory_uri() . '/assets/js/jquery.theme.js', [ 'jquery' ], time(), false);
     }
     add_action( 'wp_enqueue_scripts', 'wppractice1_enqueue_scripts');
 
