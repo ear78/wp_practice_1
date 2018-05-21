@@ -14,6 +14,10 @@
     add_theme_support( 'customize-selective-refresh-widgets');
     add_theme_support( 'starter-content');
 
+
+
+
+
     // Load in Css
 
     function wppractice1_enqueue_styles(){
@@ -22,7 +26,13 @@
         // using get_stylesheet_directory_uri() to get directory then concat the path afterwards
 
 
+        wp_enqueue_style( 'montserrat-font',  'https://fonts.googleapis.com/css?family=Montserrat:300,400,600', [], '', 'all');
+
         wp_enqueue_style( 'main-css',  get_stylesheet_directory_uri() . '/style.css', [], time(), 'all');
+
+    // using custom stylesheets for different pages
+    // use the array to make the css dependent on whatever file you want to cascade
+    wp_enqueue_style( 'custom-css',  get_stylesheet_directory_uri() . '/assets/css/custom.css', [ 'main-css' ], time(), 'all');
 
     }
 
@@ -30,11 +40,31 @@
     add_action( 'wp_enqueue_scripts', 'wppractice1_enqueue_styles');
 
 
+
+
+
+    // Load in our js
+
+    function wppractice1_enqueue_scripts(){
+        wp_enqueue_script( 'theme-js', get_stylesheet_directory_uri() . '/assets/js/theme.js', [], time(), true);
+
+        wp_enqueue_script( 'jquery-theme-js', get_stylesheet_directory_uri() . '/assets/js/jquery.theme.js', [ 'jquery' ], time(), );
+    }
+    add_action( 'wp_enqueue_scripts', 'wppractice1_enqueue_scripts');
+
+
+
+
+
     // Register Menu Locations
 
     register_nav_menus(
         [ 'navigation' => esc_html__( 'Navigation', 'wppractice1')]
     );
+
+
+
+
 
     // Setup Widget Areas
     function wppractice1_widgets_init(){

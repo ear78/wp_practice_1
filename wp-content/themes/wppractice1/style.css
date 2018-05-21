@@ -75,7 +75,7 @@ a {
 }
 
 body {
-    font-family: 'Helvetica';
+    font-family: 'Montserrat', sans-serif;
     background: cadetblue;
 }
 
@@ -113,4 +113,11 @@ footer {
     padding: 10px 12px;
 }
 
-
+button.primary {
+    background: #0f0f0f;
+    color: #fff;
+    border-radius: 3px;
+    padding: 9px 17px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
