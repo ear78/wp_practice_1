@@ -26,7 +26,7 @@
         // using get_stylesheet_directory_uri() to get directory then concat the path afterwards
 
 
-        wp_enqueue_style( 'montserrat-font',  'https://fonts.googleapis.com/css?family=Montserrat:300,400,600', [], '', 'all');
+        wp_enqueue_style( 'montserrat-font',  'https://fonts.googleapis.com/css?family=Montserrat:300,400,600', [], time(), 'all');
 
         wp_enqueue_style( 'main-css',  get_stylesheet_directory_uri() . '/style.css', [], time(), 'all');
 
@@ -49,6 +49,8 @@
         wp_enqueue_script( 'theme-js', get_stylesheet_directory_uri() . '/assets/js/theme.js', [], time(), true);
 
         wp_enqueue_script( 'jquery-theme-js', get_stylesheet_directory_uri() . '/assets/js/jquery.theme.js', [ 'jquery' ], time(), false);
+
+        wp_enqueue_script( 'navigation-js', get_stylesheet_directory_uri() . '/assets/js/navigation.js', [ 'jquery' ], time(), false);
     }
     add_action( 'wp_enqueue_scripts', 'wppractice1_enqueue_scripts');
 
