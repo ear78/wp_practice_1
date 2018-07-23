@@ -26,6 +26,24 @@ function wpplugin_settings_page(){
         'dashicons-wordpress-alt',
         100
     );
+
+    add_submenu_page(
+        'settingspage',
+        'Plugin Feature 1',
+        'Feature 1',
+        'manage_options',
+        'feature-1',
+        'settingspage_markup'
+    );
+
+    add_submenu_page(
+        'settingspage',
+        'Plugin Feature 2',
+        'Feature 2',
+        'manage_options',
+        'feature-1',
+        'settingspage_markup'
+    );
 }
 
 add_action( 'admin_menu', 'wpplugin_settings_page');
@@ -33,9 +51,9 @@ add_action( 'admin_menu', 'wpplugin_settings_page');
 function wpplugin_settings_page_markup(){
 
     //check user capabilities
-    if( !current_user_can('manage_options')){
-        return;
-    }
+//    if( !current_user_can('manage_options')){
+//        return;
+//    }
 
     ?>
     <div class="wrap">
@@ -44,3 +62,23 @@ function wpplugin_settings_page_markup(){
     </div>
 
     <?php } ?>
+
+<?php
+
+function settingspage_markup(){
+
+    //check user capabilities
+//    if( !current_user_can('manage_options')){
+//        return;
+//    }
+
+    ?>
+    <div class="wrap">
+        <h1><?php esc_html_e( get_admin_page_title()); ?></h1>
+        <p><?php esc_html_e( 'Some content.', 'wpplugin' ); ?></p>
+    </div>
+
+    <?php } ?>
+
+
+
