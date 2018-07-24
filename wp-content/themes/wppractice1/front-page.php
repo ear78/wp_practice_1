@@ -23,6 +23,11 @@
 
         <p>Template: front-page.php</p>
 
+        <div class="search-container">
+            <?php get_search_form(); ?>
+        </div>
+
+
     </main>
 
 

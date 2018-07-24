@@ -23,6 +23,8 @@
 
         <p>Template: page.php</p>
 
+        <a href="<?php echo home_url(); ?>/search" title="Search Page">Search Page</a>
+
     </main>
 
 
