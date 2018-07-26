@@ -54,7 +54,12 @@
     }
     add_action( 'wp_enqueue_scripts', 'wppractice1_enqueue_scripts');
 
-
+	//Enqueue the Dashicons script
+	
+	function load_dashicons_front_end() {
+		wp_enqueue_style( 'dashicons' );
+	}
+	add_action( 'wp_enqueue_scripts', 'load_dashicons_front_end' );
 
 
 
@@ -122,5 +127,7 @@
 
     }
     add_action( 'widgets_init', 'wppractice1_widgets_init')
+		
+	
 
 ?>

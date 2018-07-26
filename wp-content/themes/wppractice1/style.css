@@ -76,7 +76,8 @@ a {
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background: cadetblue;
+    font-family: 'Avenir Next', sans-serif;
+    /*background: cadetblue;*/
 }
 
 h2 {

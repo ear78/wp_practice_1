@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dae33d3c-d620-4ac6-9879-2940cd01a0e3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/wppractice1/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/wppractice1/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="dae33d3c-d620-4ac6-9879-2940cd01a0e3" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,8 +35,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice1/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="269" column="23" selection-start-line="269" selection-start-column="23" selection-end-line="269" selection-end-column="23" />
+            <state relative-caret-position="232">
+              <caret line="206" column="23" lean-forward="true" selection-start-line="206" selection-start-column="23" selection-end-line="206" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -195,12 +193,12 @@
       <workItem from="1527118994542" duration="71000" />
       <workItem from="1532024008499" duration="545000" />
       <workItem from="1532108602123" duration="8000" />
-      <workItem from="1532379701924" duration="6533000" />
+      <workItem from="1532379701924" duration="7147000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58595000" />
+    <option name="totallyTimeSpent" value="59209000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="559" y="23" width="880" height="815" extended-state="0" />
@@ -215,7 +213,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32729805" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32729805" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -583,8 +581,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wppractice1/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="269" column="23" selection-start-line="269" selection-start-column="23" selection-end-line="269" selection-end-column="23" />
+        <state relative-caret-position="232">
+          <caret line="206" column="23" lean-forward="true" selection-start-line="206" selection-start-column="23" selection-end-line="206" selection-end-column="23" />
         </state>
       </provider>
     </entry>

@@ -1,7 +1,7 @@
 
 <!-- Page.php is for static pages and has the same layout as index.php -->
 
-<?php get_header(  ); ?>
+<?php get_header( 'alternate' ); ?>
 
 <!-- primary content posts and pages -->
 <div id="primary" class="content-area">

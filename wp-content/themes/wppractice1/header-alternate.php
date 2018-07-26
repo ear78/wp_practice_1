@@ -5,6 +5,16 @@
     <?php wp_head(); ?>
 </head>
 
-<body>
+<body <?php body_class(); ?>>
+<!--    <header id="fullpage" class="fullpage-header" role="banner">-->
 
-    <p>This is from the header alternate file</p>
+
+
+        <?php get_template_part('template-parts/navigation/navigation', 'fullpage' ); ?>
+
+        <?php get_template_part('template-parts/navigation/navigation', 'fullpageMobile' ); ?>
+
+<!--    </header>-->
+
+
+    <div id="content" class="site-content">
