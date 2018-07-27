@@ -63,7 +63,9 @@ table {
     border-spacing: 0;
 }
 
-/* General styles */
+
+
+/* General styles for the Practice Theme */
 
 * {
     box-sizing: border-box;
@@ -166,9 +168,9 @@ h2 {
     content: "";
     position: absolute;
     z-index: -1;
-    left: 51%;
-    right: 51%;
-    bottom: 0;
+    left: 10px;
+    right: 100%;
+    bottom: 4px;
     background: #fff;
     height: 1px;
     -webkit-transition-property: left, right;
@@ -198,8 +200,9 @@ h2 {
 }
 
 .menu-item a:hover:before, .menu-item a:focus:before, .menu-item a:active:before {
-    left: 0;
+    left: 10px;
     right: 0;
+    bottom: 4px;
 }
 
 
@@ -270,4 +273,47 @@ h2 {
 
 .search-post-excerpt p {
     max-width: 90%;
+}
+
+.page-template-fullpage {
+    overflow: hidden;
+}
+
+.site-branding {
+    display: none;
+}
+
+
+/* Full Page Template */
+
+.fullpage-container {
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+    url("http://localhost:8888/wp_practice_1/wp-content/uploads/2018/07/martin-jernberg-197949-unsplash.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.fullpage-container h1 {
+    font-size: 4em;
+    margin-bottom: 10px;
+}
+
+.fullpage-container p {
+    font-weight: 200;
+}
+
+.fullpage-container span {
+    margin: 20px auto 110px;
+}
+
+.fullpage-container .dashicons, .fullpage-container .dashicons-before:before {
+    width: 60px;
+    height: 60px;
+    font-size: 60px;
 }

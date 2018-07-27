@@ -6,15 +6,14 @@
 </head>
 
 <body <?php body_class(); ?>>
-<!--    <header id="fullpage" class="fullpage-header" role="banner">-->
+    <header role="banner">
 
-
+        <span id="hamburger" class="dashicons dashicons-menu"></span>
 
         <?php get_template_part('template-parts/navigation/navigation', 'fullpage' ); ?>
 
         <?php get_template_part('template-parts/navigation/navigation', 'fullpageMobile' ); ?>
 
-<!--    </header>-->
-
+    </header>
 
     <div id="content" class="site-content">

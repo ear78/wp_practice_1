@@ -31,7 +31,15 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-
+<script>
+    jQuery(document).ready(function(){
+        var isMenuActive = false;
+        jQuery('#close-nav, #hamburger').on('click', function(){
+            isMenuActive = !isMenuActive;
+            isMenuActive ? jQuery('#fullpage-nav').addClass('active') : jQuery('#fullpage-nav').removeClass('active');
+        })
+    })
+</script>
 </body>
 
 </html>
