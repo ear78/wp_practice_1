@@ -25,6 +25,7 @@
         // using time() to trick wordpress to use most current version, turn off when in development
         // using get_stylesheet_directory_uri() to get directory then concat the path afterwards
 
+        wp_enqueue_style( 'bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css', ['main-css'], time(), 'all');
 
         wp_enqueue_style( 'montserrat-font',  'https://fonts.googleapis.com/css?family=Montserrat:300,400,600', [], time(), 'all');
 
@@ -53,6 +54,58 @@
         wp_enqueue_script( 'navigation-js', get_stylesheet_directory_uri() . '/assets/js/navigation.js', [ 'jquery' ], time(), false);
     }
     add_action( 'wp_enqueue_scripts', 'wppractice1_enqueue_scripts');
+
+
+
+// Lever Jobs Api and check to load only on careers page
+
+function kochava_lever_api() {
+    if( is_page( 'careers' )){
+        ?>
+            <script>
+                var kochavaUrl = 'https://api.lever.co/v0/postings/kochava?mode=json';
+                fetch(kochavaUrl)
+                    .then(function(response) {
+                        return response.json();
+                    })
+                    .then(function(leverJson){
+                        leverJson.forEach(function(data){
+                            var form = {
+                                title: data.text,
+                                location: data.categories.location,
+                                team: data.categories.team,
+                                applyNow: data.hostedUrl
+                            };
+
+                            var newDiv = document.createElement('div');
+                            newDiv.setAttribute('class', 'col-xs-12 col-lg-4 lever-jobs');
+                            var posting = `<div class="inner-wrap">
+                                                <p class="title">${form.title}</p>
+                                                   <p class="location">${form.location}</p>
+                                                   <br>
+                                                   <br>
+                                                   <div class="links">
+                                                     <a href="#" class="team">${form.team}</a>
+                                                     <a class="apply-now" href="${form.applyNow} target="_blank">Apply Now</a>
+                                                   </div>
+                                                </div>
+                                       `;
+                            var content = document.getElementById('content');
+                            newDiv.innerHTML = posting;
+                            content.appendChild(newDiv);
+
+
+                        })
+                    })
+
+
+            </script>
+        <?php
+    }
+}
+add_action( 'wp_enqueue_scripts', 'kochava_lever_api');
+
+
 
 	//Enqueue the Dashicons script
 	
